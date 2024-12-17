@@ -1,4 +1,6 @@
 [![Version](https://img.shields.io/github/v/release/Open-CMSIS-Pack/STM32F4xx_DFP)](https://github.com/Open-CMSIS-Pack/STM32F4xx_DFP/releases/latest)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-green?label)](https://github.com/Open-CMSIS-Pack/STM32F4xx_DFP/blob/main/LICENSE-Apache-2.0)
+[![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-green?label)](https://github.com/Open-CMSIS-Pack/STM32F4xx_DFP/blob/main/LICENSE-BSD-3-Clause)
 
 # STM32F4xx_DFP
 
@@ -49,10 +51,6 @@ https://github.com/Open-CMSIS-Pack/gen-pack)) generates the software pack. Run t
 The repository uses GitHub Actions to generate the pack:
 
 - `.github/workflows/pack.yml` based on [Open-CMSIS-Pack/gen-pack-action](https://github.com/Open-CMSIS-Pack/gen-pack-action) generates pack using the [Generate software pack](#generate-software-pack) scripts.
-
-## License
-
-The DFP is licensed under [![License](https://img.shields.io/github/license/Open-CMSIS-Pack/STM32F4xx_DFP?label)](https://github.com/Open-CMSIS-Pack/STM32F4xx_DFP/blob/main/LICENSE).
 
 ## Issues
 

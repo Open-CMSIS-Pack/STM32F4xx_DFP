@@ -5,20 +5,25 @@
   <description overview="Documents/OVERVIEW.md">STMicroelectronics STM32F4 Series Device Support</description>
   <url>https://www.keil.com/pack/</url>
   <repository type="git">https://github.com/Open-CMSIS-Pack/STM32F4xx_DFP.git</repository>
-  <license>LICENSE</license>
+  <license>LICENSES</license>
   <licenseSets>
     <licenseSet id="all" default="true" gating="true">
-      <license name="LICENSE" title="Apache 2.0 open-source license" spdx="Apache-2.0"/>
+      <license title="Apache-2.0 License for CMSIS add-ons"                  name="LICENSE-Apache-2.0"   spdx="Apache-2.0"/>
+      <license title="BSD-3-Clause License for STMicroelectronics STM32 HAL" name="LICENSE-BSD-3-Clause" spdx="BSD-3-Clause"/>
     </licenseSet>
   </licenseSets>
 
   <releases>
-    <release version="3.0.2-dev">
+    <release version="3.0.3-dev">
       Active development ...
       Updateed Templates:
       - Added DWARF-5 debug information
       - Added generated output files
       Updated documentation references
+      Reorganized Licenses:
+      - LICENSES (combined license file: Apache-2.0 and BSD-3-Clause)
+      - LICENSE-Apache-2.0 (for CMSIS add-ons)
+      - LICENSE-BSD-3-Clause (for STM32 HAL)
     </release>
     <release version="2.17.1" date="2023-07-04">
       Board Support:
@@ -3736,6 +3741,7 @@ The STM32F4 family incorporates high-speed embedded memories and an extensive ra
 
           <variant Dvariant="STM32F479ZITx"> <feature type="QFP" n="144"/> </variant>
         </device>
+
       </subFamily>
 
     </family>
