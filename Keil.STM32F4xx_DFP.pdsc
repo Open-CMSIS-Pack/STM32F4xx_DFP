@@ -14,16 +14,8 @@
   </licenseSets>
 
   <releases>
-    <release version="3.0.3-dev">
+    <release version="3.1.1-dev">
       Active development ...
-      Updateed Templates:
-      - Added DWARF-5 debug information
-      - Added generated output files
-      Updated documentation references
-      Reorganized Licenses:
-      - LICENSES (combined license file: Apache-2.0 and BSD-3-Clause)
-      - LICENSE-Apache-2.0 (for CMSIS add-ons)
-      - LICENSE-BSD-3-Clause (for STM32 HAL)
     </release>
     <release version="2.17.1" date="2023-07-04">
       Board Support:
