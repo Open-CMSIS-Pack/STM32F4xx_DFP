@@ -13,8 +13,11 @@
   </licenseSets>
 
   <releases>
-    <release version="3.0.1-dev">
+    <release version="3.0.2-dev">
       Active development ...
+      Updateed Templates:
+      - Added DWARF-5 debug information
+      - Added generated output files
       Updated documentation references
     </release>
     <release version="2.17.1" date="2023-07-04">

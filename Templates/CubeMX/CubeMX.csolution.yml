@@ -1,6 +1,6 @@
 # A solution is a collection of related projects that share same base configuration.
 solution:
-  created-for: CMSIS-Toolbox@2.6.0
+  created-for: CMSIS-Toolbox@2.9.0
   cdefault:
 
   # List of tested compilers that can be selected
@@ -8,6 +8,14 @@ solution:
     - compiler: AC6
     - compiler: GCC
     - compiler: IAR
+
+  # Miscellaneous toolchain controls directly passed to the tools
+  misc:
+    - for-compiler: AC6      # change to -gdwarf-4 for debugging using uVision
+      C-CPP:
+        - -gdwarf-5
+      ASM:
+        - -gdwarf-5
 
   # List the packs that define the device and/or board.
   packs:

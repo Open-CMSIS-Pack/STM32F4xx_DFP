@@ -6,3 +6,10 @@ project:
   components:
     - component: ARM::CMSIS:CORE
     - component: Device:CubeMX
+
+  # List executable file formats to be generated.
+  output:
+    type:
+      - elf
+      - hex
+      - map
