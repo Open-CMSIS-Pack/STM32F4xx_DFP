@@ -1,5 +1,5 @@
 // File: STM32F469_479.dbgconf
-// Version: 1.0.0
+// Version: 1.0.1
 // Note: refer to STM32F469xx STM32F479xx reference manual (RM0386)
 //       refer to STM32F469xx STM32F479xx datasheets
 
@@ -33,7 +33,7 @@ DbgMCU_CR = 0x00000007;
 //   <o.1>  DBG_TIM3_STOP            <i> TIM3 counter stopped when core is halted
 //   <o.0>  DBG_TIM2_STOP            <i> TIM2 counter stopped when core is halted
 // </h>
-DbgMCU_APB1_Fz = 0x00000000;
+DbgMCU_APB1_Fz = 0x07E019FF;
 
 // <h> Debug MCU APB2 freeze register (DBGMCU_APB2_FZ)
 //                                   <i> Reserved bits must be kept at reset value
@@ -43,7 +43,7 @@ DbgMCU_APB1_Fz = 0x00000000;
 //   <o.1>  DBG_TIM8_STOP            <i> TIM8 counter stopped when core is halted
 //   <o.0>  DBG_TIM1_STOP            <i> TIM1 counter stopped when core is halted
 // </h>
-DbgMCU_APB2_Fz = 0x00000000;
+DbgMCU_APB2_Fz = 0x00070003;
 
 // <h> TPIU Pin Routing (TRACECLK fixed on Pin PE2)
 //   <i> TRACECLK: Pin PE2
