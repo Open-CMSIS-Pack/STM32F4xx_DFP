@@ -14,12 +14,8 @@
   </licenseSets>
 
   <releases>
-    <release version="3.1.1-dev">
+    <release version="3.1.2-dev">
       Active development ...
-      Device support:
-      - Shortened device family description
-      - Added Ddsp processor attribute
-      - Updated debug configuration files (MCU APBx Freeze registers)
     </release>
     <release version="2.17.1" date="2023-07-04">
       Board Support:
