@@ -2298,7 +2298,7 @@ High-performance STM32F4 MCUs with Arm Cortex-M4 core, MPU, DSP, FPU, 225 DMIPS 
         </debugvars>
 
         <book name="https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf" title="STM32F405/415 STM32F407/417 STM32F427/437 STM32F429/439 Reference Manual"/>
-        <book name="https://www.st.com/resource/en/datasheet/stm32f427vg.pdf.pdf" title="STM32F427/429 Datasheet"/>
+        <book name="https://www.st.com/resource/en/datasheet/stm32f427vg.pdf" title="STM32F427/429 Datasheet"/>
 
         <feature type="Timer"         n="12"      m="16"/>
         <feature type="DAC"           n="2"       m="12"/>
@@ -2466,7 +2466,7 @@ High-performance STM32F4 MCUs with Arm Cortex-M4 core, MPU, DSP, FPU, 225 DMIPS 
         </debugvars>
 
         <book name="https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf" title="STM32F405/415 STM32F407/417 STM32F427/437 STM32F429/439 Reference Manual"/>
-        <book name="https://www.st.com/resource/en/datasheet/stm32f427vg.pdf.pdf" title="STM32F427/429 Datasheet"/>
+        <book name="https://www.st.com/resource/en/datasheet/stm32f427vg.pdf" title="STM32F427/429 Datasheet"/>
 
         <feature type="Timer"         n="12"      m="16"/>
         <feature type="DAC"           n="2"       m="12"/>
